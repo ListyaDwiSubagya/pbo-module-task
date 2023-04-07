@@ -184,7 +184,6 @@ namespace ProjectHardPBO
             Console.WriteLine(" ");
 
             Console.WriteLine("Soal Nomor 2");
-            Console.WriteLine("==========Ngoding==========");
             Vivobook ngoding1 = new Vivobook();
             ngoding1.vga = new Nvidia();
             ngoding1.processor = new Ryzen();
