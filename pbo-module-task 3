@@ -193,13 +193,13 @@ namespace ProjectHardPBO
 
 
             Console.WriteLine("SOAL 3");
-            Laptop laptopkentang = new Vivobook();
-            laptopkentang.vga = new Nvidia();
-            laptopkentang.processor = new CoreI5();
+            Laptop laptop1 = new Vivobook();
+            laptop1.vga = new Nvidia();
+            laptop1.processor = new CoreI5();
 
-            Console.WriteLine("Vga              : " + laptopkentang.vga.merk);
-            Console.WriteLine("Merk Prosessor   : " + laptopkentang.processor.merk);
-            Console.WriteLine("Tipe Prosessor   : " + laptopkentang.processor.tipe);
+            Console.WriteLine("Vga              : " + laptop1.vga.merk);
+            Console.WriteLine("Merk Prosessor   : " + laptop1.processor.merk);
+            Console.WriteLine("Tipe Prosessor   : " + laptop1.processor.tipe);
             Console.WriteLine(" ");
 
 
